@@ -1,9 +1,9 @@
 # Mask Classifier (Classificação automática de rostos com ou sem máscara usando DNNs e um dataset artificial)
 
 # Tabela de conteúdos
-* [Informações Gerais](#infos-gerais)
-* [Tecnologias utilizadas](#tecnologias)
-* [Aplicativo Android](#app)
+* [Informações Gerais](#informações-gerais)
+* [Tecnologias utilizadas](#tecnologias-utilizadas)
+* [Aplicativo Android](#aplicativo-android)
 * [Artigo](#artigo)
 
 # Informações Gerais

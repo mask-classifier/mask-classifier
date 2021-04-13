@@ -1,7 +1,7 @@
 # Mask Classifier (Classificação automática de rostos com ou sem máscara usando DNNs e um dataset artificial)
 
 ## Índice
-* [Conteúdos](#conteudos)
+* [Conteúdos](#conteúdos)
 * [Informações Gerais](#informações-gerais)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
 * [Instalação do Environment](#instalação-do-environment)

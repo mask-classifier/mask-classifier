@@ -68,7 +68,8 @@ Caso prefira, você pode utilizar o dataset com 10.000 imagens que ja foi gerado
 Link para o dataset no Drive:
 https://drive.google.com/file/d/1Fx2Qzziri0y5YHr4p49uu6xCEc-s0uUO/view?usp=sharing
 
-Exemplo de rostos com máscara gerados:
+Exemplo de rostos com máscara gerados:   
+
 ![alt text](https://i.imgur.com/MU5PWpZ.jpg) ![alt text](https://i.imgur.com/WmI1acY.jpg)
 
 ## Aplicativo Android:

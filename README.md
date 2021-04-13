@@ -1,12 +1,14 @@
 # Mask Classifier (Classificação automática de rostos com ou sem máscara usando DNNs e um dataset artificial)
 
-## O presente repositório contém 5 Jupyter Notebooks.
-
 # Tabela de conteúdos
-- Informações gerais
-- Tecnologias utilizadas
-- Aplicativo Android
-- Artigo
+* [Informações Gerais](#infos-gerais)
+* [Tecnologias utilizadas](#tecnologias)
+* [Aplicativo Android](#app)
+* [Artigo](#artigo)
+
+# Informações Gerais
+
+O presente repositório contém 5 Jupyter Notebooks.
 
 # Saiba mais
 

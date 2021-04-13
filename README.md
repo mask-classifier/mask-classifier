@@ -34,7 +34,7 @@ O presente repositório contém 5 Jupyter Notebooks.
 
 Primeiro, você deve baixar o Anaconda pelo link: https://www.anaconda.com/products/individual#Downloads.
 
-Após instalar o Anaconda, baixe este [arquivo](/environments/mask-classifier.yml).
+Após instalar o Anaconda, baixe este [arquivo](https://github.com/mask-classifier/mask-classifier/blob/main/environment/mask-classifier.yml).
 
 Com o arquivo, abra o Anaconda Prompt (pesquise na barra de pesquisa do windows) vá até sua pasta onde o arquivo mask-classifier.yml foi baixado, no caso de ser a pasta de downloads, para isso digite: ```cd Downloads```.
 

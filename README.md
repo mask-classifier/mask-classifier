@@ -27,3 +27,9 @@ A pandemia de COVID-19 tem sido um problema significativo para a saúde da popul
 https://drive.google.com/file/d/1kWfwqp3Ae0H5Owy1ctnEyaO54w97cyEi/view?usp=sharing
 
 # Instalação do Environment
+
+Primeiro, você deve baixar o Anaconda pelo link: https://www.anaconda.com/products/individual#Downloads. Após instalar o Anaconda, você deve ter o arquivo que esta na pasta: /environments/mask-classifier.yml.
+
+Com o arquivo, abra o Anaconda Prompt (pesquise na barra de pesquisa do windows) vá até sua pasta onde o arquivo mask-classifier.yml foi baixado, no caso de ser a pasta de downloads, para isso digite: ```cd Downloads```.
+
+Por fim, para criar o environment, digite ```conda env create -f mask-classifier.yml```.

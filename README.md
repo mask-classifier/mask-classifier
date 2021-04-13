@@ -63,6 +63,12 @@ O dataset utilizado foi coletado pela Nvidia e consiste de 70.000 fotos de rosto
 Link para o dataset no Kaggle:
 https://www.kaggle.com/xhlulu/flickrfaceshq-dataset-nvidia-resized-256px
 
+Caso prefira, você pode utilizar o dataset com 10.000 imagens que ja foi gerado.
+
+Link para o dataset no Drive:
+https://drive.google.com/file/d/1Fx2Qzziri0y5YHr4p49uu6xCEc-s0uUO/view?usp=sharing
+
+Exemplo de rostos com máscara gerados: ![alt text](https://i.imgur.com/MU5PWpZ.jpg) ![alt text](https://i.imgur.com/WmI1acY.jpg)
 
 ## Aplicativo Android:
 Foi desenvolvido um aplicativo Android que permite demonstrar a utilização do modelo classificador em uma aplicação em tempo real.

@@ -47,9 +47,9 @@ Com os conteúdos do presente repositório, cria-se um conjunto de dados dividid
 
 ## Instalação do Environment
 
-Primeiro, você deve baixar o [Anaconda](https://www.anaconda.com/products/individual#Downloads).
+Primeiro, você deve baixar e instalar o [Anaconda](https://www.anaconda.com/products/individual#Downloads).
 
-Após instalar o Anaconda, baixe [este arquivo](https://github.com/mask-classifier/mask-classifier/blob/main/environment/mask-classifier.yml).
+Após a instalação, baixe [este arquivo](https://github.com/mask-classifier/mask-classifier/blob/main/environment/mask-classifier.yml).
 
 Com o arquivo, abra o Anaconda Prompt e navegue até a pasta onde o arquivo mask-classifier.yml foi baixado. Por exemplo, no caso de ser a pasta padrão de downloads, digite: ```cd Downloads```.
 

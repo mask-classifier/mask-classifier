@@ -1,6 +1,6 @@
 # Mask Classifier (Classificação automática de rostos com ou sem máscara usando DNNs e um dataset artificial)
 
-# Índice
+## Índice
 * [Conteúdos](#conteudos)
 * [Informações Gerais](#informações-gerais)
 * [Tecnologias utilizadas](#tecnologias-utilizadas)
@@ -10,7 +10,7 @@
 * [Artigo](#artigo)
 
 
-# Conteúdos
+## Conteúdos
 
 O presente repositório é composto por 5 Jupyter Notebooks: 
 * [draw_mask](https://github.com/mask-classifier/mask-classifier/blob/main/draw_mask.ipynb)
@@ -20,12 +20,12 @@ O presente repositório é composto por 5 Jupyter Notebooks:
 * [camera](https://github.com/mask-classifier/mask-classifier/blob/main/camera.ipynb)
 
 
-# Informações Gerais
+## Informações Gerais
 
 Com os conteúdos do presente repositório, cria-se um conjunto de dados dividido entre fotos de rostos humanos e fotos de rostos humanos utilizando máscaras artificialmente geradas, treina-se e testa-se um modelo classificador utilizando Redes Neurais Profundas (Deep Neural Networks), valida-se o modelo classificador utilizando fotos reais de pessoas utilizando ou não máscaras faciais e, por fim, valida-se o modelo utilizando a webcam do computador em tempo real.
 
 
-# Tecnologias utilizadas
+## Tecnologias utilizadas
 * Python 3.6.12
 * dlib 19.7.0
 * imutils 0.5.4
@@ -45,7 +45,7 @@ Com os conteúdos do presente repositório, cria-se um conjunto de dados dividid
 * tensorflow-estimator 2.2.0
 
 
-# Instalação do Environment
+## Instalação do Environment
 
 Primeiro, você deve baixar o [Anaconda](https://www.anaconda.com/products/individual#Downloads).
 
@@ -56,7 +56,7 @@ Com o arquivo, abra o Anaconda Prompt e navegue até a pasta onde o arquivo mask
 Por fim, para criar o environment, digite ```conda env create -f mask-classifier.yml```.
 
 
-# Dataset
+## Dataset
 
 O dataset utilizado foi coletado pela Nvidia e consiste de 70.000 fotos de rostos de pessoas retiradas do Flickr.
 
@@ -64,16 +64,16 @@ Link para o dataset no Kaggle:
 https://www.kaggle.com/xhlulu/flickrfaceshq-dataset-nvidia-resized-256px
 
 
-# Aplicativo Android:
+## Aplicativo Android:
 Foi desenvolvido um aplicativo Android que permite demonstrar a utilização do modelo classificador em uma aplicação em tempo real.
 
 Link para download do aplicativo .apk:
 https://drive.google.com/file/d/1Tw9jWWdX_jBY90cl591qGXtFJ8j6bM-d/view?usp=sharing
 
 
-# Artigo:
+## Artigo:
 
-### Resumo:  
+#### Resumo:  
 
 A pandemia de COVID-19 tem sido um problema significativo para a saúde da população de todo o mundo. De acordo com a Organização Mundial da Saúde, a propagação do vírus ocorre através de gotículas geradas quando as pessoas respiram, falam, tossem ou espirram. Portanto, utilizar máscaras de proteção individual mostrou-se eficiente para reduzir a propagação do vírus em espaços coletivos. Neste contexto, observa-se a necessidade de sistemas de detecção de uso de máscara para monitoramento das medidas preventivas e sanitárias. Uma solução possível é utilizar redes neurais de aprendizagem profunda para desenvolver algoritmos de detecção automática que solucionem este problema. Algumas destas redes podem ser embarcadas para execução em tempo real em sistemas com baixa capacidade computacional, operando até mesmo em smartphones. Para identificar rostos com máscaras, é necessário criar um modelo classificador, um processo que necessita de dados rotulados para o treinamento supervisionado. Apesar disso, devido à baixa disponibilidade desses dados para esta tarefa, propusemos neste trabalho a criação de um conjunto vasto de dados artificiais simulando rostos com máscaras e tornando assim a tarefa de treinamento do modelo possível.
 

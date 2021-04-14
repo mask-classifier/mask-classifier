@@ -146,7 +146,7 @@ The dataset we created has 10.000 images with size 224x224 and 50% of those have
 If you want to use it in the same way it's disposed on the repository, unzip the dataset inside the ```dataset/``` folder.  
 
 Link for the dataset in Google Drive: https://drive.google.com/file/d/1Fx2Qzziri0y5YHr4p49uu6xCEc-s0uUO/view?usp=sharing
-Examples of faces with artificially generated face masks:
+Examples of faces with artificially generated face masks:   
 ![Person Wearing an artificially generated face mask](https://i.imgur.com/MU5PWpZ.jpg) ![Person Wearing an artificially generated face mask](https://i.imgur.com/WmI1acY.jpg)
 
 The original dataset we used was collected by Nvidia and consists of 70.000 photos of human faces taken from Flickr.   

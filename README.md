@@ -57,21 +57,19 @@ Por fim, para criar o environment, digite ```conda env create -f mask-classifier
 
 
 ## Dataset
+O dataset criado contém 10.000 imagens com tamanho de 224x224 e em 50% delas foram geradas máscaras artificias.   
+Se for utilizar da forma como está disposto nas pastas do respositório, descompacte a pasta dentro de dataset/.
 
-O dataset utilizado foi coletado pela Nvidia e consiste de 70.000 fotos de rostos de pessoas retiradas do Flickr.
-
-Link para o dataset completo no Kaggle:
-https://www.kaggle.com/xhlulu/flickrfaceshq-dataset-nvidia-resized-256px
-
-Caso prefira, você pode utilizar o dataset com 10.000 imagens já reduzidas e 50% artificialmente mascaradas.
-
-Link para o dataset no Drive:
-https://drive.google.com/file/d/1Fx2Qzziri0y5YHr4p49uu6xCEc-s0uUO/view?usp=sharing
+Link para o dataset no Drive: https://drive.google.com/file/d/1Fx2Qzziri0y5YHr4p49uu6xCEc-s0uUO/view?usp=sharing
 
 Exemplo de rostos com máscara gerados:   
-
 ![Pessoa com máscara artificial](https://i.imgur.com/MU5PWpZ.jpg) ![Pessoa com máscara artificial](https://i.imgur.com/WmI1acY.jpg)
 
+O dataset utilizado foi coletado pela Nvidia e consiste de 70.000 fotos de rostos de pessoas retiradas do Flickr.   
+
+Link para o dataset completo no Kaggle: https://www.kaggle.com/xhlulu/flickrfaceshq-dataset-nvidia-resized-256px   
+
+Caso pretenda re-criar o dataset usado com uma quantidade maior, menor ou com alguma configuração diferente, descompacte dentro da pasta dataset/, use o código do [image_reduce](https://github.com/mask-classifier/mask-classifier/blob/main/image_reduce.ipynb) para reduzir as imagens e depois use o código do [draw_mask](https://github.com/mask-classifier/mask-classifier/blob/main/draw_mask.ipynb) para gerar as máscaras.   
 ## Aplicativo Android:
 Foi desenvolvido um aplicativo Android que permite demonstrar a utilização do modelo classificador em uma aplicação em tempo real.
 

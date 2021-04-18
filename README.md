@@ -86,6 +86,7 @@ Link para o artigo completo:
 https://drive.google.com/file/d/1kWfwqp3Ae0H5Owy1ctnEyaO54w97cyEi/view?usp=sharing
 
 
+# Mask Classifier (Automatic classification of faces with or without face masks using DNNs and an artificial dataset)
 
 ## Table of contents
 * [Contents](#contents)
